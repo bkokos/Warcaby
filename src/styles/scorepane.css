@@ -1,0 +1,16 @@
+#move-label{
+	
+	-fx-text-fill: lightgray;
+}
+#title{
+	-fx-font-weight: bold italic;
+	-fx-font-size: 35px;
+	-fx-padding : 0px;
+	-fx-text-fill: lightgray;
+}
+#player-label {
+	
+	-fx-font-size: 20 px;
+	-fx-font-weight: bold;
+	-fx-text-fill: lightgray;
+}
