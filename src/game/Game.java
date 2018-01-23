@@ -432,7 +432,7 @@ public class Game extends Application {
 						movesPlayer1.setText(moves.toString());
 					} else if (previousY - currentY == -2 && (previousX - currentX == 2 || previousX - currentX == -2)
 							&& (currentX + currentY) % 2 != 0
-							&& (tiles[7 - (previousY + 1)][7 - previousX + 1].hasPawn()
+							&& (tiles[7 - (previousY + 1)][7 - (previousX + 1)].hasPawn()
 									|| tiles[7 - (previousY + 1)][7 - (previousX - 1)].hasPawn())) {
 						gameBoard.getChildren().remove(pawn);
 						gameBoard.add(pawn, 7 - currentX, 7 - currentY);
